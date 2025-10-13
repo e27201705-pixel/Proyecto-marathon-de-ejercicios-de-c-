@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    
+    // Solicitar al usuario un número
+    cout << "Ingresa un número: ";
+    cin >> numero;
+    
+    // Calcular y mostrar el cuadrado del número
+    int cuadrado = numero * numero;
+    cout << "El cuadrado de " << numero << " es " << cuadrado << endl;
+    
+    return 0;
+}
