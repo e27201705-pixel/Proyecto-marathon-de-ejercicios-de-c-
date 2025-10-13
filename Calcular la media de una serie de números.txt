@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int cantidad, numero;
+    int positivos = 0, negativos = 0;
+    
+    // Pedir la cantidad de números a ingresar
+    cout << "¿Cuántos números quieres ingresar? ";
+    cin >> cantidad;
+    
+    // Contar positivos y negativos
+    for (int i = 1; i <= cantidad; i++) {
+        cout << "Ingresa el número " << i << ": ";
+        cin >> numero;
+        
+        if (numero > 0) {
+            positivos++;
+        } else if (numero < 0) {
+            negativos++;
+        }
+    }
+    
+    // Mostrar el resultado
+    cout << "Cantidad de números positivos: " << positivos << endl;
+    cout << "Cantidad de números negativos: " << negativos << endl;
+    
+    return 0;
+}
