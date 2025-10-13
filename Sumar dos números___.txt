@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num1, num2;
+    
+    // Pedir al usuario que ingrese dos números
+    cout << "Ingresa el primer número: ";
+    cin >> num1;
+    cout << "Ingresa el segundo número: ";
+    cin >> num2;
+    
+    // Calcular la suma
+    int suma = num1 + num2;
+    
+    // Mostrar el resultado
+    cout << "La suma es: " << suma << endl;
+    
+    return 0;
+}

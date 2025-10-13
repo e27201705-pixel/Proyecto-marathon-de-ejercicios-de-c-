@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    long long factorial = 1;
+    
+    // Pedir al usuario que ingrese un número
+    cout << "Ingresa un número para calcular su factorial: ";
+    cin >> num;
+    
+    // Calcular el factorial
+    for(int i = 1; i <= num; i++) {
+        factorial *= i;
+    }
+    
+    // Mostrar el resultado
+    cout << "El factorial de " << num << " es " << factorial << endl;
+    
+    return 0;
+}
+
